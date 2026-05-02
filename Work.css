@@ -2,3 +2,33 @@
     background-color: #e6ebf2;
 font-family: Arial, sans-serif;
 }
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+}

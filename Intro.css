@@ -15,7 +15,7 @@ body{
     background:#e6ebf2;
 }
 
-button{
+.Button{
     background-color: #4a6cf7;
     color: white;
     margin-top: 20px;
@@ -24,6 +24,7 @@ button{
     border-radius: 8px;
     cursor: pointer;
     margin-left: 100px;
+    text-decoration: none;
 }
 nav{
     display:flex;
@@ -85,3 +86,8 @@ bottom: 0;
 width: 100%;
 }
 
+@media only screen and ( max-width: 600px ){
+    body{
+
+    }
+}

@@ -29,7 +29,7 @@ body{
 nav{
     display:flex;
     justify-content:right;
-    margin:80px 80Px 0px;
+    margin:80px 5% 0;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     padding:20px;
@@ -49,7 +49,7 @@ span{
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    margin:0px 80px 80px;
+    margin:0 5% 5%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -67,7 +67,7 @@ span{
     background: #4a6cf7;
 padding: 40px;
 border-radius: 60% 40% 60% 40%;
-margin-right: 200px;
+margin-right: 5%;
 
 }
 img{
@@ -76,7 +76,7 @@ img{
 }
 footer{
     background-color: #4a6cf7;
-    height: 40px;
+    height: 15px;
     color:#333;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -86,3 +86,105 @@ bottom: 0;
 width: 100%;
 }
 
+@media (max-width:768px){
+
+    nav{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+        margin:20px;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        margin:20px;
+        padding:30px;
+    }
+
+    .hero-text h1{
+        margin-left:0;
+        font-size:36px;
+    }
+
+    .button{
+        margin-left:0;
+    }
+
+    .image{
+        margin:40px auto;
+    }
+
+    img{
+        width:180px;
+    }
+
+    footer{
+        padding:15px;
+    }
+}
+
+.nav a{
+    transition:0.3s;
+}
+
+.nav a:hover{
+    color:#4a6cf7;
+    border-bottom:2px solid #4a6cf7;
+}
+
+.button{
+    transition:0.3s;
+}
+
+.button:hover{
+    background:#3556d8;
+    transform:scale(1.05);
+}
+
+img{
+    transition:0.3s;
+}
+
+img:hover{
+    transform:scale(1.05);
+}
+
+@media (max-width:768px){
+
+nav{
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    margin:20px;
+}
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+    margin:20px;
+    padding:30px;
+}
+
+.hero-text h1{
+    margin-left:0;
+    font-size:36px;
+}
+
+.button{
+    margin-left:0;
+}
+
+.image{
+    margin:40px auto;
+}
+
+img{
+    width:180px;
+}
+
+footer{
+    padding:15px;
+}
+
+}
